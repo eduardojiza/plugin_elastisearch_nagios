@@ -9,7 +9,8 @@ Python 2.7 o superior
 
 **Instalacion**
 
-*Cliente*
+***Cliente***
+
 Ir a descargas
 P.e. cd ~/Downloads
 
@@ -36,7 +37,8 @@ Pegar: command[check_elasticsearch]=/usr/lib/nagios/plugins/plugin_elastisearch_
 Reinicio nrpe
 P.e. service nagios-nrpe-server restart
 
-*Servidor*
+***Servidor***
+
 Prueba
 P.e. /usr/lib/nagios/plugins/check_nrpe -H ip_cliente -c check_elasticsearch
 
